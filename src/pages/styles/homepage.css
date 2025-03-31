@@ -7,6 +7,9 @@
 	padding-top: 130px;
 }
 
+
+
+
 .homepage-container {
 	padding-top: 25px;
 }
@@ -93,6 +96,12 @@
 	flex-basis: 600px;
 	padding-top: 30px;
 	color: black;
+}
+
+@media (max-width: 600px) {
+	.page-content{
+		width: 100% !important;
+	}
 }
 
 

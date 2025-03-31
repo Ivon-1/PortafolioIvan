@@ -19,9 +19,6 @@ const Footer = () => {
 							<Link to="/projects">Proyectos</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/articles">Artículos</Link>
-						</li>
-						<li className="footer-nav-link-item">
 							<Link to="/contact">Contacto</Link>
 						</li>
 					</ul>
