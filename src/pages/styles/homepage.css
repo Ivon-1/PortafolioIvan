@@ -7,7 +7,13 @@
 	padding-top: 130px;
 }
 
+img {
+	max-width: 100%;
+}
 
+body {
+	overflow-x: hidden;
+}
 
 
 .homepage-container {
@@ -99,7 +105,7 @@
 }
 
 @media (max-width: 600px) {
-	.page-content{
+	.page-content {
 		width: 100% !important;
 	}
 }
@@ -113,7 +119,8 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
+		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
