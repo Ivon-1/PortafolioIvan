@@ -56,6 +56,7 @@
 	justify-content: left;
 	align-items: center;
 	padding-top: 30px;
+	margin: auto;
 }
 
 .homepage-social-icon {
@@ -93,6 +94,8 @@
 	padding-top: 30px;
 	color: black;
 }
+
+
 
 @media (max-width: 1024px) {
 	.homepage-first-area {

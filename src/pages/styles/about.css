@@ -16,7 +16,7 @@
 .about-container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
@@ -92,6 +92,7 @@
 	.about-right-side {
 		flex-basis: 100%;
 		order: 2;
+		
 	}
 
 	.about-image-container {

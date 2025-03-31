@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+/*import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -77,3 +77,4 @@ const Articles = () => {
 };
 
 export default Articles;
+*/
