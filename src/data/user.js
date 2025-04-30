@@ -120,7 +120,7 @@ const INFO = {
 				"Página web de pádel utilizando como lenguajes HTML, CSS y utilizando BEM.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/Ivon-1/Pr-ctica-BEM",
+			link: "https://tiendapadel-kappa.vercel.app/",
 		},
 
 		{
@@ -129,7 +129,7 @@ const INFO = {
 				"Página web sin responsive utilizando como lenguajes HTML y CSS.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/Ivon-1/Introducci-n-CSS-without-responsive",
+			link: "https://proyect-without-responsive.vercel.app/",
 		},
 
 		{
@@ -138,7 +138,7 @@ const INFO = {
 				"Página web sin responsive utilizando como lenguajes HTML, CSS.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/Ivon-1/Introducci-n-CSS---2-without-responsive",
+			link: "https://page-without-responsive2.vercel.app/",
 		},
 	],
 };
