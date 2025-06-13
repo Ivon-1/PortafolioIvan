@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { imagenesHome } from "../data/imagenes";
+import { imagenesRedes } from "../data/imagenesIconosContact";
 
 export function Projects() {
     const navigate = useNavigate();
@@ -7,24 +8,24 @@ export function Projects() {
     const projects = [
         {
             title: "Abogados Rojo Álvarez",
-            description: "Página web de una empresa de abogacía",
+            description: "Página web de una empresa de abogacía: Rojo Álvarez",
             tech: "HTML, CSS",
-            image: imagenesHome.logoPerfil.url,
-            link: "#"
+            image: imagenesRedes.proyectoAbogados.url,
+            link: "https://web-abogac-a.vercel.app/"
         },
         {
             title: "ModTech",
-            description: "Descripción del proyecto 2",
-            tech: "Node.js, Express, MongoDB",
-            image: imagenesHome.logoPerfil2.url,
-            link: "#"
+            description: "Aplicación de venta de productos tecnológicos(TFG)",
+            tech: "Laravel, MySQL, HTML, CSS, JavaScript, React, BootStrapm PostgreSQL",
+            image: imagenesRedes.tfg.url,
+            link: "https://github.com/Ivon-1/TFG"
         },
         {
-            title: "Proyecto 3",
-            description: "Descripción del proyecto 2",
+            title: "Linkedin",
+            description: "Aplicación con funcionamiento similar a Linkedin con diversas funcionalidades",
             tech: "Node.js, Express, MongoDB",
-            image: imagenesHome.logoPerfil3.url,
-            link: "#"
+            image: imagenesRedes.proyectoLinkedin.url,
+            link: "https://github.com/Ivon-1/Linkedin"
         },
     ];
 
