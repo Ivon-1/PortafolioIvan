@@ -1,72 +1,68 @@
+import { NavBar } from "./NavBar";
+import { imagenesRedes } from "../data/imagenesIconosContact";
+
 export function Contact() {
     return (
-        <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
-                <div className="text-center">
-                    <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                        Contacto
-                    </h2>
-                    <p className="mt-4 text-lg text-gray-500">
-                        ¿Tienes alguna pregunta? No dudes en contactarme
-                    </p>
-                </div>
+        <div className="min-h-screen relative bg-gradient-to-b from-gris-fondo to-color-header">
+            <NavBar />
 
-                <div className="mt-12 max-w-lg mx-auto">
-                    <form className="grid grid-cols-1 gap-y-6">
-                        <div>
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                                Nombre
-                            </label>
-                            <div className="mt-1">
-                                <input
-                                    type="text"
-                                    name="name"
-                                    id="name"
-                                    className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
-                                    placeholder="Tu nombre"
+            <div className="max-w-7xl mx-auto px-4 py-8">
+                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg">
+                    <h2 className="text-3xl font-bold text-botones-enlaces mb-8 text-center">Contacto</h2>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {/* GitHub */}
+                        <a 
+                            href="https://github.com/Ivon-1/Ivon-1" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                        >
+                            <div className="w-16 h-16 mb-4">
+                                <img 
+                                    src={imagenesRedes.iconoGithub.url} 
+                                    alt={imagenesRedes.iconoGithub.alt}
+                                    className="w-full h-full object-contain"
                                 />
                             </div>
-                        </div>
+                            <h3 className="text-xl font-semibold text-botones">GitHub</h3>
+                            <p className="text-gray-600 mt-2">Ivon-1</p>
+                        </a>
 
-                        <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                                Email
-                            </label>
-                            <div className="mt-1">
-                                <input
-                                    type="email"
-                                    name="email"
-                                    id="email"
-                                    className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
-                                    placeholder="tu@ejemplo.com"
+                        {/* linkedin */}
+                        <a 
+                            href="https://www.linkedin.com/in/ivan-alvarez-garcia2/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                        >
+                            <div className="w-16 h-16 mb-4">
+                                <img 
+                                    src={imagenesRedes.iconoLinkedin.url} 
+                                    alt={imagenesRedes.iconoLinkedin.alt}
+                                    className="w-full h-full object-contain"
                                 />
                             </div>
-                        </div>
+                            <h3 className="text-xl font-semibold text-botones">LinkedIn</h3>
+                            <p className="text-gray-600 mt-2">Iván Álvarez</p>
+                        </a>
 
-                        <div>
-                            <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                                Mensaje
-                            </label>
-                            <div className="mt-1">
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    rows={4}
-                                    className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
-                                    placeholder="Tu mensaje"
+                        {/* correo */}
+                        <a 
+                            href="mailto:IvanAlvz12@outlook.es" 
+                            className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                        >
+                            <div className="w-16 h-16 mb-4">
+                                <img 
+                                    src={imagenesRedes.iconoCorreo.url} 
+                                    alt={imagenesRedes.iconoCorreo.alt}
+                                    className="w-full h-full object-contain"
                                 />
                             </div>
-                        </div>
-
-                        <div>
-                            <button
-                                type="submit"
-                                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                            >
-                                Enviar mensaje
-                            </button>
-                        </div>
-                    </form>
+                            <h3 className="text-xl font-semibold text-botones">Email</h3>
+                            <p className="text-gray-600 mt-2">IvanAlvz12@outlook.es</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

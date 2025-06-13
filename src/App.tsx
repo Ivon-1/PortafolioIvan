@@ -7,7 +7,7 @@ import { Contact } from './components/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-gris-fondo">
+    <div className="min-h-screen w-full bg-gradient-to-b from-gris-fondo to-color-header">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
