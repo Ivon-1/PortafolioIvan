@@ -16,7 +16,7 @@ export function Projects() {
         {
             title: "ModTech",
             description: "Aplicación de venta de productos tecnológicos(TFG)",
-            tech: "Laravel, MySQL, HTML, CSS, JavaScript, React, BootStrapm PostgreSQL",
+            tech: "Laravel, MySQL, HTML, CSS, JavaScript, React, BootStrap, PostgreSQL",
             image: imagenesRedes.tfg.url,
             link: "https://github.com/Ivon-1/TFG"
         },
