@@ -145,7 +145,7 @@ export function About() {
                     <div className="prose max-w-none">
                         {/* descripcion cv */}
                         <p className="text-gray-700">
-                            Espacio reservado para tu descripción personal y profesional.
+                        Desarrollador web proactivo, organizado y responsable, con gran capacidad de aprendizaje y adaptación. Experto en el diseño y maquetación de interfaces modernas utilizando React con TSX y Tailwind CSS, así como en la integración de tecnologías como HTML, CSS, JavaScript, PHP, MySQL y frameworks como Laravel y Bootstrap. Acostumbrado a trabajar en equipo, con experiencia en metodologías ágiles (Agile y Kanban) y buenas habilidades comunicativas. Manejo de herramientas como Figma, GitHub y SASS, y experiencia en el desarrollo de aplicaciones web robustas y escalables.
                         </p>
                     </div>
                 </div>
