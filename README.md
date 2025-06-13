@@ -107,3 +107,35 @@ VITE_API_URL=tu_url_api
 
 Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
 
+    // Enable its recommended typescript rules
+    ...reactX.configs['recommended-typescript'].rules,
+    ...reactDom.configs.recommended.rules,
+  ,
+
+```
+
+3. En la configuración de GitHub del repositorio:
+   - Ve a "Settings" > "Pages"
+   - Selecciona la rama `gh-pages` como fuente
+   - Guarda los cambios
+
+## 🔧 Variables de Entorno
+
+Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
+
+```env
+VITE_API_URL=tu_url_api
+```
+
+## 📝 Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run preview` - Vista previa de la versión de producción
+- `npm run lint` - Ejecuta el linter
+- `npm run format` - Formatea el código
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
+
