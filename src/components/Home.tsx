@@ -5,7 +5,7 @@ export function Home() {
     return (
         <div className="flex flex-col min-h-screen">
             {/* Navegación */}
-            <nav className="bg-white shadow-lg bg-botones-enlaces">
+            <nav className="bg-color-header shadow-lg bg-botones-enlaces">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex justify-between h-16">
                         <div className="flex space-x-7">
@@ -13,10 +13,10 @@ export function Home() {
                                 <Link to="/" className="text-2xl font-bold text-gray-800">Portfolio</Link>
                             </div>
                             <div className="hidden md:flex items-center space-x-1">
-                                <Link to="/" className="py-4 px-2 text-gray-800 font-semibold hover:text-blue-500 transition duration-300">Home</Link>
-                                <Link to="/about" className="py-4 px-2 text-gray-800 font-semibold hover:text-blue-500 transition duration-300">About</Link>
-                                <Link to="/projects" className="py-4 px-2 text-gray-800 font-semibold hover:text-blue-500 transition duration-300">Projects</Link>
-                                <Link to="/contact" className="py-4 px-2 text-gray-800 font-semibold hover:text-blue-500 transition duration-300">Contact</Link>
+                                <Link to="/" className="py-4 px-2 text-black font-semibold hover:text-blue-500 transition duration-300">Home</Link>
+                                <Link to="/about" className="py-4 px-2 text-black font-semibold hover:text-blue-500 transition duration-300">About</Link>
+                                <Link to="/projects" className="py-4 px-2 text-black font-semibold hover:text-blue-500 transition duration-300">Projects</Link>
+                                <Link to="/contact" className="py-4 px-2 text-black font-semibold hover:text-blue-500 transition duration-300">Contact</Link>
                             </div>
                         </div>
                     </div>
@@ -30,10 +30,10 @@ export function Home() {
 
                 <div className="max-w-7xl mx-auto px-4 py-16 w-full">
                     <div className="text-center">
-                        <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+                        <h1 className="text-4xl font-bold text-blue-900 sm:text-5xl md:text-6xl">
                             Iván Álvarez
                         </h1>
-                        <p className="mt-3 max-w-md mx-auto text-justify text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                        <p className="mt-3 max-w-md mx-auto text-justify text-blue-900 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                         Desarrollador Full Stack Junior con sólida formación académica en DAW. Experiencia práctica en el desarrollo de aplicaciones web utilizando HTML5, CSS3, JavaScript, PHP, SCSS y React, entre otros. 
                         Conocimientos en frameworks modernos como React y Laravel, y gestión de bases de datos MySQL. Entusiasta del código limpio y las buenas prácticas de programación.
                         </p>
