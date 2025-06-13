@@ -23,7 +23,7 @@ export function Projects() {
         {
             title: "Linkedin",
             description: "Aplicación con funcionamiento similar a Linkedin con diversas funcionalidades",
-            tech: "Node.js, Express, MongoDB",
+            tech: "Node.js, MySQL, php, laravel",
             image: imagenesRedes.proyectoLinkedin.url,
             link: "https://github.com/Ivon-1/Linkedin"
         },

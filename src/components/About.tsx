@@ -17,8 +17,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoHtml.url} 
-                                    alt={imagenesHome.iconoHtml.alt} />
+                                    <img src={imagenesHome.iconoHtml.url}
+                                        alt={imagenesHome.iconoHtml.alt} />
                                 </div>
                             </div>
                             <h3 className="text-center font-semibold text-botones">HTML 5</h3>
@@ -28,8 +28,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoCss.url} 
-                                    alt={imagenesHome.iconoCss.alt} />
+                                    <img src={imagenesHome.iconoCss.url}
+                                        alt={imagenesHome.iconoCss.alt} />
                                 </div>
                             </div>
                             <h3 className="text-center font-semibold text-botones">CSS</h3>
@@ -39,8 +39,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoJs.url} 
-                                    alt={imagenesHome.iconoJs.alt} />
+                                    <img src={imagenesHome.iconoJs.url}
+                                        alt={imagenesHome.iconoJs.alt} />
                                 </div>
                             </div>
                             <h3 className="text-center font-semibold text-botones">JavaScript</h3>
@@ -50,8 +50,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoScss.url} 
-                                    alt={imagenesHome.iconoScss.alt} />
+                                    <img src={imagenesHome.iconoScss.url}
+                                        alt={imagenesHome.iconoScss.alt} />
                                 </div>
                             </div>
                             <h3 className="text-center font-semibold text-botones">SASS</h3>
@@ -61,8 +61,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoTailwind.url} 
-                                    alt={imagenesHome.iconoTailwind.alt} />
+                                    <img src={imagenesHome.iconoTailwind.url}
+                                        alt={imagenesHome.iconoTailwind.alt} />
                                 </div>
                             </div>
                             <h3 className="text-React font-semibold text-botones">TailWind</h3>
@@ -72,8 +72,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.BootStrap.url} 
-                                    alt={imagenesHome.BootStrap.alt} />
+                                    <img src={imagenesHome.BootStrap.url}
+                                        alt={imagenesHome.BootStrap.alt} />
                                 </div>
                             </div>
                             <h3 className="text-React font-semibold text-botones">BootStrap</h3>
@@ -83,8 +83,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoMysql.url} 
-                                    alt={imagenesHome.iconoMysql.alt} />
+                                    <img src={imagenesHome.iconoMysql.url}
+                                        alt={imagenesHome.iconoMysql.alt} />
                                 </div>
                             </div>
                             <h3 className="text-MySql font-semibold text-botones">MySql</h3>
@@ -94,20 +94,20 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoPosgre.url} 
-                                    alt={imagenesHome.iconoPosgre.alt} />
+                                    <img src={imagenesHome.iconoPosgre.url}
+                                        alt={imagenesHome.iconoPosgre.alt} />
                                 </div>
                             </div>
                             <h3 className="text-MySql font-semibold text-botones">Postgre</h3>
                         </div>
 
-                        
+
                         <div className="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-shadow duration-300">
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoLaravel.url} 
-                                    alt={imagenesHome.iconoLaravel.alt} />
+                                    <img src={imagenesHome.iconoLaravel.url}
+                                        alt={imagenesHome.iconoLaravel.alt} />
                                 </div>
                             </div>
                             <h3 className="text-Laravel font-semibold text-botones">Laravel</h3>
@@ -117,8 +117,8 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoReact.url} 
-                                    alt={imagenesHome.iconoReact.alt} />
+                                    <img src={imagenesHome.iconoReact.url}
+                                        alt={imagenesHome.iconoReact.alt} />
                                 </div>
                             </div>
                             <h3 className="text-React font-semibold text-botones">React</h3>
@@ -128,14 +128,14 @@ export function About() {
                             <div className="aspect-square mb-3">
                                 {/* imagen tecnologia */}
                                 <div className="w-full h-full bg-gray-200 rounded-lg">
-                                    <img src={imagenesHome.iconoTs.url} 
-                                    alt={imagenesHome.iconoTs.alt} />
+                                    <img src={imagenesHome.iconoTs.url}
+                                        alt={imagenesHome.iconoTs.alt} />
                                 </div>
                             </div>
                             <h3 className="text-React font-semibold text-botones">TypeScript</h3>
                         </div>
 
-                       
+
                     </div>
                 </div>
 
@@ -144,8 +144,8 @@ export function About() {
                     <h2 className="text-3xl font-bold text-botones-enlaces mb-6">Sobre Mí</h2>
                     <div className="prose max-w-none">
                         {/* descripcion cv */}
-                        <p className="text-gray-700">
-                        Desarrollador web proactivo, organizado y responsable, con gran capacidad de aprendizaje y adaptación. Experto en el diseño y maquetación de interfaces modernas utilizando React con TSX y Tailwind CSS, así como en la integración de tecnologías como HTML, CSS, JavaScript, PHP, MySQL y frameworks como Laravel y Bootstrap. Acostumbrado a trabajar en equipo, con experiencia en metodologías ágiles (Agile y Kanban) y buenas habilidades comunicativas. Manejo de herramientas como Figma, GitHub y SASS, y experiencia en el desarrollo de aplicaciones web robustas y escalables.
+                        <p className="text-gray-700 text-justify">
+                            Desarrollador web proactivo, organizado y responsable, con gran capacidad de aprendizaje y adaptación. Experto en el diseño y maquetación de interfaces modernas utilizando React con TSX y Tailwind CSS, así como en la integración de tecnologías como HTML, CSS, JavaScript, PHP, MySQL y frameworks como Laravel y Bootstrap. Acostumbrado a trabajar en equipo, con experiencia en metodologías ágiles (Agile y Kanban) y buenas habilidades comunicativas. Manejo de herramientas como Figma, GitHub y SASS, y experiencia en el desarrollo de aplicaciones web robustas y escalables.
                         </p>
                     </div>
                 </div>
