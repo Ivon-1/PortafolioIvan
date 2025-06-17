@@ -62,6 +62,14 @@ export function Projects() {
             link: "https://github.com/Ivon-1/Taller-de-vehiculos",
             target: "_blank"
         },
+        {
+            title: "Gestión bancaria",
+            description: "Programa para gestionar cuentas bancarias, movimientos. No desplegado, acceso al código.",
+            tech: "PHP, LARAVEL, BootStrap",
+            image: imagenesRedes.banco.url,
+            link: "https://github.com/Ivon-1/Banco",
+            target: "_blank"
+        },
     ];
 
     return (

@@ -8,6 +8,7 @@ import tiendaPhp from '../assets/tienda_php.png';
 import tiendaProductos from '../assets/tienda_productos.png';
 import padel from '../assets/padel.png';
 import taller from '../assets/taller_vehiculos.png';
+import banco from '../assets/banco.png';
 
 
 interface iconos{
@@ -27,6 +28,7 @@ interface iconosRedes{
     tiendaProductos: iconos;
     padel: iconos;
     taller: iconos;
+    banco: iconos;
 }
 
 const imagenesRedes: iconosRedes = {
@@ -79,6 +81,11 @@ const imagenesRedes: iconosRedes = {
         id: 10,
         url: taller,
         alt: 'taller',
+    },
+    banco:{
+        id: 11,
+        url: banco,
+        alt: 'banco',
     },
 }
 
