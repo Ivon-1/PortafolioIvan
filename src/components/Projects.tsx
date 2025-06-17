@@ -87,6 +87,7 @@ export function Projects() {
                                 <p className="mt-2">{project.tech}</p>
                                 <a
                                     href={project.link}
+                                    target={project.target}
                                     className="link-proyectos mt-4 inline-flex items-center px-4 py-2 border border-transparent 
                                     text-sm font-medium rounded-md 
                                     text-white bg-botones-enlaces hover:bg-botones transition-colors duration-300 cursor-pointer"
