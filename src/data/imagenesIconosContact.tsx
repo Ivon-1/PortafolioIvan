@@ -4,6 +4,12 @@ import iconoCorreo from '../assets/correo.webp';
 import proyectoAbogados from '../assets/Previa.png';
 import proyectoLinkedin from '../assets/proyecto-laravel-1.png';
 import tfg from '../assets/modtech.png'
+import tiendaPhp from '../assets/tienda_php.png';
+import tiendaProductos from '../assets/tienda_productos.png';
+import padel from '../assets/padel.png';
+import taller from '../assets/taller_vehiculos.png';
+
+
 interface iconos{
     id: number, 
     url: string,
@@ -17,6 +23,10 @@ interface iconosRedes{
     proyectoAbogados: iconos;
     proyectoLinkedin: iconos;
     tfg: iconos;
+    tiendaPhp: iconos;
+    tiendaProductos: iconos;
+    padel: iconos;
+    taller: iconos;
 }
 
 const imagenesRedes: iconosRedes = {
@@ -50,7 +60,26 @@ const imagenesRedes: iconosRedes = {
         url: tfg,
         alt: 'tfg',
     },
-
+    tiendaPhp:{
+        id: 7,
+        url: tiendaPhp,
+        alt: 'tiendaPhp',
+    },
+    tiendaProductos:{
+        id: 8,
+        url: tiendaProductos,
+        alt: 'tiendaProductos',
+    },
+    padel:{
+        id: 9,
+        url: padel,
+        alt: 'padel',
+    },
+    taller:{
+        id: 10,
+        url: taller,
+        alt: 'taller',
+    },
 }
 
 export {imagenesRedes}

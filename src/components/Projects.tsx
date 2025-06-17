@@ -38,6 +38,30 @@ export function Projects() {
             link: "https://github.com/Ivon-1/Tienda-php",
             target: "_blank"
         },
+        {
+            title: "Dashboard Productos",
+            description: "Panel de gestión de productos",
+            tech: "PHP, Laravel, CSS, BootStrap",
+            image: imagenesRedes.tiendaProductos.url,
+            link: "https://github.com/Ivon-1/Inventario-de-Productos",
+            target: "_blank"
+        },
+        {
+            title: "Página web de Padel",
+            description: "Página web de padel para practicar FlexBox",
+            tech: "Html, CSS, BootStrap",
+            image: imagenesRedes.padel.url,
+            link: "https://pr-ctica-bem.vercel.app/",
+            target: "_blank"
+        },
+        {
+            title: "Programa gestión de vehículos",
+            description: "Programa para gestionar revisiones de vehiculos",
+            tech: "PHP, LARAVEL, BootStrap",
+            image: imagenesRedes.taller.url,
+            link: "https://github.com/Ivon-1/Taller-de-vehiculos",
+            target: "_blank"
+        },
     ];
 
     return (
