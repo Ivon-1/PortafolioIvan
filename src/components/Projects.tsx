@@ -11,21 +11,32 @@ export function Projects() {
             description: "Página web de una empresa de abogacía: Rojo Álvarez",
             tech: "HTML, CSS",
             image: imagenesRedes.proyectoAbogados.url,
-            link: "https://web-abogac-a.vercel.app/"
+            link: "https://web-abogac-a.vercel.app/",
+            target: "_blank"
         },
         {
             title: "ModTech",
             description: "Aplicación de venta de productos tecnológicos(TFG)",
             tech: "Laravel, MySQL, HTML, CSS, JavaScript, React, BootStrap, PostgreSQL",
             image: imagenesRedes.tfg.url,
-            link: "https://github.com/Ivon-1/TFG"
+            link: "https://github.com/Ivon-1/TFG",
+            target: "_blank"
         },
         {
             title: "Linkedin",
             description: "Aplicación con funcionamiento similar a Linkedin con diversas funcionalidades",
             tech: "Node.js, MySQL, php, laravel",
             image: imagenesRedes.proyectoLinkedin.url,
-            link: "https://github.com/Ivon-1/Linkedin"
+            link: "https://github.com/Ivon-1/Linkedin",
+            target: "_blank"
+        },
+        {
+            title: "Tienda de productos",
+            description: "Tienda de productos realizada con PHP",
+            tech: "PHP, CSS",
+            image: imagenesHome.php.url,
+            link: "https://github.com/Ivon-1/Tienda-php",
+            target: "_blank"
         },
     ];
 

@@ -13,7 +13,7 @@ import iconoScss from '../assets/scss.jpg';
 import iconoTailwind from '../assets/tailwind.webp';
 import iconoTs from '../assets/ts.webp';
 import Bootstrap from '../assets/bootstrap.jpg';
-
+import php from '../assets/tienda_php.png';
 // interfaz para estructura imagenes
 interface Imagenes{
     id: number, 
@@ -38,6 +38,7 @@ interface ImagenesGenerales{
     iconoTailwind: Imagenes;
     iconoTs: Imagenes;
     BootStrap: Imagenes;
+    php: Imagenes
 
 }
 
@@ -116,6 +117,11 @@ const imagenesHome:  ImagenesGenerales = {
         id: 15,
         url: Bootstrap,
         alt: 'ts'
+    },
+    php:{
+        id: 16,
+        url: php,
+        alt: 'php'
     }
 
 
