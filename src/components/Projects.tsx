@@ -8,7 +8,7 @@ export function Projects() {
     const projects = [
         {
             title: "Abogados Rojo Álvarez",
-            description: "Página web de una empresa de abogacía: Rojo Álvarez",
+            description: "Página web de una empresa de abogacía: Rojo Álvarez. Desplegado en Vercel.",
             tech: "HTML, CSS",
             image: imagenesRedes.proyectoAbogados.url,
             link: "https://web-abogac-a.vercel.app/",
@@ -16,7 +16,7 @@ export function Projects() {
         },
         {
             title: "ModTech",
-            description: "Aplicación de venta de productos tecnológicos(TFG)",
+            description: "Aplicación de venta de productos tecnológicos(TFG). No está desplegado, se ve el código del proyecto.",
             tech: "Laravel, MySQL, HTML, CSS, JavaScript, React, BootStrap, PostgreSQL",
             image: imagenesRedes.tfg.url,
             link: "https://github.com/Ivon-1/TFG",
@@ -24,7 +24,7 @@ export function Projects() {
         },
         {
             title: "Linkedin",
-            description: "Aplicación con funcionamiento similar a Linkedin con diversas funcionalidades",
+            description: "Aplicación con funcionamiento similar a Linkedin con diversas funcionalidades. No está desplegado, se ve el código del proyecto.",
             tech: "Node.js, MySQL, php, laravel",
             image: imagenesRedes.proyectoLinkedin.url,
             link: "https://github.com/Ivon-1/Linkedin",
@@ -32,7 +32,7 @@ export function Projects() {
         },
         {
             title: "Tienda de productos",
-            description: "Tienda de productos realizada con PHP",
+            description: "Tienda de productos realizada con PHP. No está desplegado, se ve el código del proyecto.",
             tech: "PHP, CSS",
             image: imagenesHome.php.url,
             link: "https://github.com/Ivon-1/Tienda-php",
@@ -40,7 +40,7 @@ export function Projects() {
         },
         {
             title: "Dashboard Productos",
-            description: "Panel de gestión de productos",
+            description: "Panel de gestión de productos. No está desplegado, se ve el código del proyecto.",
             tech: "PHP, Laravel, CSS, BootStrap",
             image: imagenesRedes.tiendaProductos.url,
             link: "https://github.com/Ivon-1/Inventario-de-Productos",
@@ -48,7 +48,7 @@ export function Projects() {
         },
         {
             title: "Página web de Padel",
-            description: "Página web de padel para practicar FlexBox",
+            description: "Página web de padel para practicar FlexBox. Desplegado en Vercel.",
             tech: "Html, CSS, BootStrap",
             image: imagenesRedes.padel.url,
             link: "https://pr-ctica-bem.vercel.app/",
@@ -56,7 +56,7 @@ export function Projects() {
         },
         {
             title: "Programa gestión de vehículos",
-            description: "Programa para gestionar revisiones de vehiculos",
+            description: "Programa para gestionar revisiones de vehiculos. No está desplegado, se ve el código del proyecto.",
             tech: "PHP, LARAVEL, BootStrap",
             image: imagenesRedes.taller.url,
             link: "https://github.com/Ivon-1/Taller-de-vehiculos",
