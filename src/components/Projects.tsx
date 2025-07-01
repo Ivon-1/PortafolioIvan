@@ -64,10 +64,10 @@ export function Projects() {
         },
         {
             title: "Gestión bancaria",
-            description: "Programa para gestionar cuentas bancarias, movimientos. No desplegado, acceso al código.",
+            description: "Programa para gestionar cuentas bancarias, movimientos. Desplegado en producción.",
             tech: "PHP, LARAVEL, BootStrap",
             image: imagenesRedes.banco.url,
-            link: "https://github.com/Ivon-1/Banco",
+            link: "https://banco.ivan-alvarez.com/cuentas",
             target: "_blank"
         },
     ];
