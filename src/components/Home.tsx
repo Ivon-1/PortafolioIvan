@@ -49,7 +49,7 @@ export function Home() {
 
                             <div className="mt-3 rounded-md shadow sm:mt-0">
                                 <a
-                                    href="../../public/Ivan_Alvarez_CV_Desarrollador_Web.pdf"
+                                    href="Ivan_Alvarez_CV_Desarrollador_Web.pdf"
                                     download="Ivan_Alvarez_CV_Desarrollador_Web.pdf"
                                     className="w-full flex items-center justify-center px-8 py-3 
                                     border border-transparent text-base font-medium rounded-md 
