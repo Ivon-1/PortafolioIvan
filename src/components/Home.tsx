@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { imagenesHome } from '../data/imagenes';
 import { NavBar } from './NavBar';
+import  cvFile  from '../assets/Ivan_Alvarez_CV_Desarrollador_Web.pdf';
 
 export function Home() {
     return (
@@ -49,8 +50,8 @@ export function Home() {
 
                             <div className="mt-3 rounded-md shadow sm:mt-0">
                                 <a
-                                    href="Ivan_Alvarez_CV_Desarrollador_Web.pdf"
-                                    download="Ivan_Alvarez_CV_Desarrollador_Web.pdf"
+                                    href={cvFile}
+                                    download={cvFile}
                                     className="w-full flex items-center justify-center px-8 py-3 
                                     border border-transparent text-base font-medium rounded-md 
                                     text-white md:py-4 md:text-lg md:px-10
